@@ -1,0 +1,16 @@
+@import url('../../styles/variables.css');
+
+.logout-btn {
+  background-color: var(--color-muted); /* Vice City pink */
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #ff7bac; /* lighter pink on hover */
+}

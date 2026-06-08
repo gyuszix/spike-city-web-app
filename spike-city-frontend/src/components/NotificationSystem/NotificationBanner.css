@@ -1,0 +1,7 @@
+.notice-banner {
+  background: #ff5ca2; /* Vice City pink */
+  color: #ffffff;      /* white text for contrast */
+  padding: 8px 12px;
+  border-bottom: 1px solid #e84f91;
+  font-size: 14px;
+}

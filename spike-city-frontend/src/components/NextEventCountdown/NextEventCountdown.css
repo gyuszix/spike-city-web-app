@@ -1,0 +1,83 @@
+.section-box {
+  margin: 2rem auto;
+  max-width: 1300px;
+}
+
+.countdown-container {
+  background-color: var(--color-text-light);
+  color: var(--color-primary-dark);
+  padding: 1rem;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+
+  width: 100%;
+  max-width: 1300px;      /* match .home-photo */
+  margin: 2rem auto;
+  box-sizing: border-box;
+
+  border: 2px solid var(--color-primary-dark);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+/* Row of numbers + separators */
+.countdown-digits {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.5rem;
+  line-height: 1;
+  font-size: clamp(1.6rem, 2.5vw + 1rem, 3rem);
+
+  flex-wrap: wrap;
+}
+
+.digit-block {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 2.6ch;       /* keeps columns aligned */
+}
+
+.digits {
+  display: inline-block;
+}
+
+.sub {
+  position: absolute;
+  right: -0.15em;         /* nudge bottom right */
+  bottom: -0.05em;
+  font-size: 0.35em;      /* tiny */
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  opacity: 0.85;
+}
+
+/* Colons */
+.sep {
+  margin: 0
+}
+
+/* Completed state */
+.countdown-complete {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto 2rem;
+  padding: 1.5rem 2rem;
+  background: var(--color-text-light);
+  color: var(--color-primary-dark);
+  border: 2px solid var(--color-primary-dark);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Numbers and dots in Vice City pink */
+.countdown-digits .digits,
+.countdown-digits .sep {
+  color: #fc5c9c;
+}

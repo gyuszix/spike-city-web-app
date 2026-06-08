@@ -1,0 +1,107 @@
+@import url('../../styles/variables.css');
+
+.section-heading {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading,
+.section-heading-small {
+  text-align: center;
+}
+
+.home-photo {
+    width: 100%;
+    max-width: 1300px;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.home-text {
+    color: var(--color-text-light);
+    background-color: var(--color-primary);
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 100%;
+    margin: 1rem auto 2rem auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    margin: 2rem auto;
+}
+
+/* Vice City style */
+.vice-city-text {
+  font-family: 'respondent', sans-serif;
+  font-size: clamp(5rem, 10vw, 9rem);
+
+  /* white fill */
+  color: #fff;
+  -webkit-text-fill-color: #fff;          /* makes the fill white in WebKit */
+
+
+  text-shadow:
+    4px 4px 0 #000,                        /* hard black drop shadow */
+    0 0 6px #fc5c9c,                       /* subtle pink glow */
+    0 0 12px #fc5c9c
+;
+
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.home-text.vice-city-text {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  /*margin: 1.5rem auto 2rem auto; /* auto centers horizontally */
+  display: block;
+  text-align: center;
+  margin: 2rem auto; /* match .home-text spacing */
+}
+.vice-city-text-small {
+  font-family: 'respondent', sans-serif;
+  font-size: clamp(1.8rem, 4.5vw, 3rem); /* smaller than main title */
+
+  /* white fill */
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+
+  /* black shadow + subtle pink glow */
+  text-shadow:
+    2px 2px 0 #000,
+    0 0 4px #fc5c9c,
+    0 0 8px #fc5c9c;
+
+  text-align: center;
+  display: block;
+  margin-top: 1rem auto;
+}
+
+.pricedown-heading {
+  font-family: 'pricedown', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  text-align: center;
+  margin-bottom: 1rem;
+  margin: 1rem auto;
+
+  /* Pure white fill */
+  color: #fff;
+
+  /* More letter spacing for airiness */
+  letter-spacing: 1.5px;
+
+  /* Thick outline for contrast */
+  -webkit-text-stroke: .15px #000;
+
+  text-shadow:
+    3px 3px 0 #000,         /* main outline */
+    5px 5px 5px rgba(0,0,0,0.8), /* soft shadow */
+}

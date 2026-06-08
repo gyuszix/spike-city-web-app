@@ -1,0 +1,77 @@
+@import url('../../styles/variables.css');
+
+.admin-panel-box {
+    color: var(--color-primary-dark);
+    background: var(--color-text-light);
+    border: 2px solid var(--color-primary-dark);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    padding: 24px;
+    margin: 1rem;
+    border-radius: 8px;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);*/
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.admin-panel-box h2 {
+    margin-bottom: 12px;
+}
+
+.admin-panel-box .dropdown {
+    margin-top: 8px;
+}
+
+.dropdown-toggle {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+    border: 2px solid var(--color-primary-dark);
+    font-weight: 600;
+    /*text-shadow: 1px 1px 2px rgba(0,0,0,0.2);*/
+}
+
+.dropdown-toggle:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-dark);
+    border-color: var(--color-text-dark);
+}
+
+.admin-panel-box .dropdown-menu {
+    margin-top: 4px;
+    border: 1px solid var(--color-primary-dark);
+}
+
+.admin-panel-box .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+    margin-bottom: 6px;
+}
+
+.admin-panel-box .dropdown-menu .dropdown-item:last-child {
+    margin-bottom: 0;
+}
+
+.admin-panel-box button,
+.admin-panel-box .btn {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+    border: 2px solid var(--color-primary-dark);
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin: 8px 8px 0 0;
+    font-weight: 600;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);*/
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.admin-panel-box button:hover,
+.admin-panel-box .btn:hover {
+    background-color: var(--color-muted);
+    border-color: var(--color-text-dark);
+    color: var(--color-text-dark);
+}
+
+.admin-panel-box > div:last-child {
+    margin-top: 24px;
+}

@@ -1,0 +1,78 @@
+
+.events-calendar-container {
+    height: 500px;
+    margin: 1rem 0;
+}
+
+.events-calendar-container {
+    height: 500px;
+    background-color: var(--color-text-light);
+    border: 2px solid var(--color-primary-dark);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 2rem auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.events-calendar-container h3 {
+    color: var(--color-primary-dark);
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.rbc-calendar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-text-light);
+    color: var(--color-text-dark);
+}
+
+/* today's date */
+.rbc-today {
+    background-color: transparent;
+    border: 2px solid var(--color-primary-dark);
+    border-radius: 6px;
+    box-sizing: border-box;
+    z-index: 1;
+    position: relative;
+}
+
+/* event entries */
+.rbc-event {
+    background-color: var(--color-muted);
+    color: var(--color-text-light);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+/* header cells */
+.rbc-header {
+    background-color: var(--color-primry);
+    color: var(--color-text-light);
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--color-primary-dark);
+    text-align: center;
+}
+
+/* navigation buttons and date label */
+.rbc-toolbar-label {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.rbc-btn-group button {
+    background-color: var(--color-primary-dark);
+    border: none;
+    color: var(--color-text-light);
+    padding: 6px 12px;
+    margin: 0 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rbc-btn-group button:hover {
+    background-color: var(--color-primary);
+}
+
