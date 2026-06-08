@@ -1,7 +1,6 @@
 ## Deployment
 
-- **Frontend:** [https://volleyball-app-frontend-mk1.uw.r.appspot.com]
-- **Backend:** [https://volleyball-app-backend.uw.r.appspot.com/api/v1/events?userId=test]
+- **Check it out at:** https://spike-city-frontend.ue.r.appspot.com/home
 
 
 #### Iteration 3
