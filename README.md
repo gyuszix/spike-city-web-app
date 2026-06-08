@@ -1,6 +1,6 @@
 ## Deployment
 
-- **Check it out at:** https://spike-city-frontend.ue.r.appspot.com/home
+- **Check it out at:** https://spike-city-frontend.ue.r.appspot.com/
 
 
 #### Iteration 3
