@@ -19,7 +19,6 @@ services:
   - name: spike-city-frontend
     type: web
     runtime: static
-    plan: free
     rootDir: spike-city-frontend
     buildCommand: npm install && npm run build
     staticPublishPath: build
