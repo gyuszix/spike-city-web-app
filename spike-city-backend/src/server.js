@@ -13,8 +13,9 @@ const allowedOrigins = [
   'http://localhost:3000',
   'https://volleyball-app-frontend.ue.r.appspot.com', // JORDAN's FRONTEND
   'https://volleyball-app-frontend-mk1.uw.r.appspot.com', //JULES'S FRONTEND
-  'https://spike-city-frontend.ue.r.appspot.com'
-];
+  'https://spike-city-frontend.ue.r.appspot.com',
+  process.env.FRONTEND_URL, // Render static site URL, set via env var so no redeploy is needed if it changes
+].filter(Boolean);
 
 /**
  * CORS configuration to whitelist origins and handle OPTIONS preflight.
