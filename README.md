@@ -1,6 +1,6 @@
 ## Deployment
 
-- **Check it out at:** https://spike-city-frontend.ue.r.appspot.com/
+- **Check it out at:** https://spike-city-frontend.onrender.com/
 
 
 #### Iteration 3
